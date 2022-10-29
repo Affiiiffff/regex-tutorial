@@ -20,9 +20,11 @@ This is a tutorial showing a brief breakdown of what Regex is, what it does, and
 
 ### Quantifiers
 
-Quantifiers are characters that with hold the strings limits. + and {} would be the limiting quantifiers in the above example.
+Quantifiers are characters that with hold the strings limits. + and {} would be the limiting quantifiers in the above example. Curly brackets are dependent on the amount of characters inside. for example {5,10} would mean that a requirement of more than 5 but less than 10 is required.
 
 ### Grouping Constructs
+
+Parenthesis are used in regex as a subexpression. This allows the characters to be read easier as they are broken into different sections. The above example is broken into three sections which define a section of the email respectively.
 
 ### Bracket Expressions
 
