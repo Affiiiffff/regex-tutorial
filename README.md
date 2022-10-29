@@ -28,7 +28,12 @@ Parenthesis are used in regex as a subexpression. This allows the characters to 
 
 ### Bracket Expressions
 
+The brackets indicate a character set. The above example has three. Each set designate a character set which in turn reference a specific part of the email.
+
 ### Character Classes
+
+Character Escapes - A backslash is used to invalidate the characters within the square brackets.
+Character Class - Any Characters that are found in the sequence of the RegEx
 
 ## Author
 
